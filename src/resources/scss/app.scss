@@ -1,0 +1,8 @@
+@import './variable';
+h2{
+    color: $mainColor;
+    text-align: center;
+    &:hover{
+        color: $subColor;
+    }
+}
